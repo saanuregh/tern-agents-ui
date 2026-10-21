@@ -1,0 +1,38 @@
+version: 2
+
+project_name: tern-agents-ui
+
+builds:
+  - &build
+    id: tclaude
+    main: ./cmd/tclaude
+    # In bin/, where the palette plugin looks for it (plugin/window.luau).
+    binary: bin/tclaude
+    env:
+      - CGO_ENABLED=0
+    flags:
+      - -trimpath
+    ldflags:
+      - -s -w
+    goos: [linux, darwin]
+    goarch: [amd64, arm64]
+  - <<: *build
+    id: tcodex
+    main: ./cmd/tcodex
+    binary: bin/tcodex
+
+archives:
+  - formats: [tar.gz]
+    # A fixed folder name, so an upgrade replaces the linked plugin in place.
+    wrap_in_directory: tern-agents-ui
+    files:
+      - README.md
+      - LICENSE
+      - docs/**
+      - plugin/**
+
+checksum:
+  name_template: checksums.txt
+
+changelog:
+  use: github
