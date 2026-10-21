@@ -1,0 +1,10 @@
+github.com/saanuregh/agent-cli-connector v0.1.0 h1:IREZjy2lT3Ez9xQqUKLbBEJQTEGyJ9fDR+nyrgZLrWI=
+github.com/saanuregh/agent-cli-connector v0.1.0/go.mod h1:wkz3rz5YjDk83Ph0a0jWPO3yeHdsXfRcQQ6WKh06WWk=
+github.com/stencil-hq/tern-sdk/go/tern v0.1.1-0.20261019213958-9e9c07463f49 h1:NEOGrzYpDggcg6WQ3kh6KiY8L3TLviF+IfZEmDDouUQ=
+github.com/stencil-hq/tern-sdk/go/tern v0.1.1-0.20261019213958-9e9c07463f49/go.mod h1:A/gAtHLX+wy4UO7jMTOvmo6HrviXmCoYav0P9q+tFro=
+golang.org/x/sys v0.48.0 h1:bbX/i/6MgT9BVLM9RT1thmxL04yeTAhbEz4SyadbXoo=
+golang.org/x/sys v0.48.0/go.mod h1:hNLxWAXmnKAxqDtdwIYC4bM9oQPEecfsnNMuSxOs3og=
+golang.org/x/term v0.46.0 h1:3+OXuTbaKDgwk8jTi3aSLHRlmWqHEUDUtxnbFigO4YE=
+golang.org/x/term v0.46.0/go.mod h1:+K02xbkittuwc0Am4abfA3Fc+XRGXkvBXNO88NCXPoc=
+golang.org/x/text v0.35.0 h1:JOVx6vVDFokkpaq1AEptVzLTpDe9KGpj5tR4/X+ybL8=
+golang.org/x/text v0.35.0/go.mod h1:khi/HExzZJ2pGnjenulevKNX1W67CUy0AsXcNubPGCA=
