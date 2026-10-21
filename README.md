@@ -10,6 +10,10 @@ Markdown messages, tool cards, diffs, subagents, permission prompts and a
 composer with model, effort and context chips. Outside Tern they fall back
 to a plain text chat.
 
+<p align="center">
+  <img src="docs/screenshot.png" alt="tclaude in a Tern pane: a search, file reads, an edit shown as a diff, Bash commands with their output, a subagent row and the composer with model, effort and context chips" width="720">
+</p>
+
 ## What you need
 
 - [Tern](https://stencil.so/tern)
